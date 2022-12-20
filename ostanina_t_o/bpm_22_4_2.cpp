@@ -3,14 +3,14 @@
 
 int main()
 {
-	std::ifstream a{};
+
 
 	double x = 0;
 	double y = 0;
 	int c_right = 0;
 	double c_all = 0;
 
-	while (a.good())
+	while (cin.good())
 	{
 		std::cin >> x >> y;
 		c_all += 1;
