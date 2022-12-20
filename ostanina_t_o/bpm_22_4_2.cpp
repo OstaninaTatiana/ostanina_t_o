@@ -10,7 +10,7 @@ int main()
 	int c_right = 0;
 	double c_all = 0;
 
-	while (cin.good())
+	while (std::cin.good())
 	{
 		std::cin >> x >> y;
 		c_all += 1;
